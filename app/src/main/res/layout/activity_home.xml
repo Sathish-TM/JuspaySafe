@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#2ecc71"
+            android:gravity="center"
+            android:drawablePadding="24dp"
+            android:text="JusPay Integration"/>
+
+
+        <Button
+            android:id="@+id/FL_Extended"
+            android:layout_width="250dip"
+            android:layout_height="48dp"
+            android:paddingLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:paddingRight="32dp"
+            android:minWidth="128dp"
+            android:gravity="center"
+            android:background="#2ecc71"
+            android:textColor="#fff"
+            android:text="FL &amp; JBF Extended"
+            android:layout_margin="16dp"
+            android:onClick="extendedButtonClicked"/>
+
+        <Button
+            android:id="@+id/FL_Simple"
+            android:layout_width="250dip"
+            android:layout_height="48dp"
+            android:paddingLeft="32dp"
+            android:background="#2ecc71"
+            android:textColor="#fff"
+            android:paddingRight="32dp"
+            android:minWidth="128dp"
+            android:gravity="center"
+            android:text="FL &amp; JBF Direct"
+            android:layout_margin="16dp"
+            android:onClick="directButtonClicked"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
